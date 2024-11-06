@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include ("../partials/head") -%>
+
+    <body>
+        <h1>Tecnologia de Calidad</h1>
+        <%- include ("../partials/header") -%>
+
+            <main>
+
+                <div class="fotos_detalle_producto">
+                    <div class="foto_detalle_producto_principal">
+                        <img class="principal" src="/img/<%= producto.imagen %>">
+                    </div>
+                </div>
+
+            
+             
+
+                <div class="botones_detalle">
+                  
+                    <form action="/productos/delete/<%= producto.id %>?_method=DELETE" method="POST">
+                       
+
+                        <section class="detallecompleto">
+
+                            <div class="contenido_detalle">
+    
+                                <div class="contenido_detalle_prod">
+                                    <%=producto.nombre%>
+                                </div>
+    
+                                <div class="titulos_contenido_detalle_prod">Descripcion
+                                </div>
+                                <div class="contenido_detalle_prod2">
+                                    <%=producto.descripcion%>
+                                </div>
+    
+                                <div class="contenido_detalle_prod3">
+                                    $<%=devolverPrecio(producto.precio)%>
+                                </div>
+    
+                            </div>
+                            <a class="boton">Comprar Ahora</a>
+                            <div class="contenido_detalle_prod4">
+                                <a href="/productos/edit/<%=producto.id%>" class="boton">Editar Producto</a>
+                                <button type="submit" class="boton">Eliminar</button>
+
+                            </div>
+                            
+    
+                        </section>
+    
+                    </form>
+                </div>
+
+               
+                  
+            
+
+
+            </main>
+
+            <%- include ("../partials/footer") -%>
+
+    </body>
+
+</html>

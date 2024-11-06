@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include ("../partials/head") -%>
+
+
+
+    <body>
+        <h1>Tecnologia de Calidad</h1>
+
+        <%- include ("../partials/header") -%>
+
+            <form action="/create" method="post">
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa el nombre">
+                </div>
+                <br>
+
+                <div>
+                    <label for="descripcion">Descripcion: </label>
+                    <input type="text" name="descripcion" id="descripcion" placeholder="Ingresa la descripcion">
+                </div>
+                <br>
+
+                <div>
+                    <label for="precio">Precio: </label>
+                    <input type="number" name="precio" id="precio" placeholder="Ingresa el precio">
+                </div>
+                <br>
+                <div>
+                    <label for="imagen">Imagen de Producto</label><br>
+                    <input type="file" name="imagen">
+                </div>
+
+                <div>
+                    <input type="submit" value="Guardar Producto">
+                </div>
+
+            </form>
+
+
+            <div class="bhome">
+                <a href="/"><button class="boton">Home</button></a>
+
+            </div>
+
+
+            <%- include ("../partials/footer") -%>
+
+    </body>
+
+</html>

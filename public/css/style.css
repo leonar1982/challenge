@@ -1,0 +1,242 @@
+body{
+    background-color:rgb(214, 187, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+header {
+    background-color:rgb(122, 102, 122);
+    color: #0a0909;
+    padding: 10px;
+    text-align:center;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+    display: flex;
+    
+}
+
+nav li {
+    display: block;
+    margin-right: 10px;
+    font-size: 15px;
+    
+}
+
+nav li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    display: block;
+    padding: 14px 25px;
+
+  
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+    justify-content: center;
+    
+   
+}
+.product{
+    /* width: 90%; */
+    max-width: 290px;
+    /* box-sizing: border-box; */
+    margin:10px;
+    padding: 20px;
+    background-color: rgb(241, 229, 237);
+    border-radius: 8px;
+    box-shadow: 10px 20px 30px rgba(0,0,0); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product p {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+    
+
+.product .precio{
+    display:flex;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    /* margin-left: 38%; */
+}
+
+.product .boton {
+    display:flex;
+    background-color: #000000;
+    border-radius: 10px;
+    color: #e4dbdb;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    /* margin-left: 150px; */
+    padding: 10px 20px;
+}
+
+.product-container .boton:hover {
+     background-color: red;
+   
+}
+/*---------------------------------------------
+formulario*/
+
+form{
+    max-width: 400px;
+    margin-top: 50px;
+    
+}
+
+label{
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    border-radius:10px;
+    padding: 6px;
+    margin-bottom: 9px;
+    border: 2px solid black
+    
+
+    
+}
+
+button{
+    background-color: rgb(159, 141, 149);
+    color: rgb(16, 1, 4);
+    margin-top: 10px;
+    border-radius: 3px;
+    
+
+}
+
+
+ /* Responsive */
+
+/* tablet */
+@media (min-width: 501px){
+
+
+}
+
+/* compu */
+@media (min-width: 801px){
+    
+ 
+}
+
+
+/* Footer */
+
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    padding: 8%;
+    margin-top: 10%;
+    position: relative;
+
+}
+
+.social-icons li{
+    margin: 0 10%;
+}
+
+.social-icons li a{
+    color: blue;
+    font-size: 120%;
+}
+
+ul{
+    width: 25%;
+} 
+
+ul p{
+    position: absolute;
+    top: 80%;
+}  
+
+.contact{
+    flex-direction: column;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-size: 80%;
+    padding: 5%;
+    width: 60%;
+
+}
+
+.contact li{
+    margin-bottom: 7px;
+}
+
+.contact li a{
+    margin-right: 2%;
+}
+
+.fa-phone, .fa-whstsapp{
+    color:rgb(18, 117, 18);
+}
+
+.fa-phone:hover{
+    color: rgb(35, 178, 35);
+}
+
+.fa-whatsapp:hover{
+    color: rgb(22, 174, 22);
+}
+
+.fa-envelope{
+    color: black
+}

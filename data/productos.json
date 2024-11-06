@@ -1,0 +1,44 @@
+[
+ {
+  "id": 1,
+  "nombre": "Monte Connecte GeoWatch",
+  "descripcion": "Este reloj inteligente con pantalla tactil de 42 mm de quinta genracion cuanta con altavoz y almacenamiento de 4 GB",
+  "precio": 76.999,
+  "imagen": "imagen1.jpg"
+ },
+ {
+  "id": 2,
+  "nombre": "Reloj Inteligente para niños",
+  "descripcion": "Será tu aliado para todas tus actividades, deportes, pronóstico del tiempo, recordatorios, calendario",
+  "precio": 26.299,
+  "imagen": "imagen2.jpg"
+ },
+ {
+  "id": 3,
+  "precio": "85.999",
+  "nombre": "Huawei Reloj Inteligente Bt Watch Fit",
+  "descripcion": "Pantalla AMOLED de 1.74 pulgadas,  harás llamadas desde tu muñeca, bateria para hasta 10 diás",
+  "imagen": "imagen3.jpg"
+ },
+ {
+  "id": 4,
+  "nombre": "Reloj inteligente Antonio Miro Kesford",
+  "descripcion": "Pulsera inteligente con camara, micro, altavoz, calendario, calculadora, grabadora, camara de fotos, llamadas y agenda",
+  "precio": 32.599,
+  "imagen": "imagen4.jpg"
+ },
+ {
+  "id": 5,
+  "nombre": "Reloj Inteligente Smartwatch GW33",
+  "descripcion": "Marca Comprapo, resitente al agua, conectividad bluetooth, garantia de 6 meses",
+  "precio": 20.899,
+  "imagen": "imagen5.jpg"
+ },
+ {
+  "id": 6,
+  "precio": "48.999",
+  "nombre": "Reloj conectado GÉN 5E",
+  "descripcion": "Este tipo de relojes avanzados incluyen conectividad y GPS integrado para conocer en todo momento donde se encuentra un niño y poder comunicarnos con él",
+  "imagen": "imagen6.jpg"
+ }
+]

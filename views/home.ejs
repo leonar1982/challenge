@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<%- include ("./partials/head") -%>
+
+<body>
+    <h1>Tecnologia de calidad</h1>
+   
+    <%- include ("./partials/header") -%>
+
+    <main>
+        <% productos.forEach(producto=> { %>
+            <a href = "/producto/<%=producto.id%>" class="producto">
+
+                <div>
+                   <p><%= producto.nombre %></p>
+                </div>
+
+               
+                <div class="precio">
+                    <p>$<%= devolverPrecio(producto.precio) %></p>
+                </div>
+                <div>
+                    
+                    <img src="/img/<%= producto.imagen %>" alt="foto">
+                </div>
+             
+            </a>
+                <% }) %>
+    </main>
+
+    <a href="/create"><button class="boton">Creacion de Producto</button></a>
+    
+    <br>
+
+
+   
+
+    <%- include ("./partials/footer") -%>
+
+    
+</body>
+
+</html> 
